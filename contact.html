@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://bootswatch.com/5/simplex/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kiisu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact
+                    <span class="visually-hidden">(current)</span>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <br/>
+    <h1>Contact Kiisu</h1>
+
+    <form>
+        <fieldset>
+          <legend>With this form you can contact Kiisu directly</legend>
+          <div>
+            <label for="inputName1" class="form-label mt-4">Name:</label>
+            <input type="text" class="form-control" id="inputName1" placeholder="Enter your name">
+          </div>
+          <div>
+            <label for="inputAge1" class="form-label mt-4">Age:</label>
+            <input type="number" class="form-control" id="inputAge1" placeholder="Enter age">
+          </div>
+          <div>
+            <label for="exampleInputEmail1" class="form-label mt-4">Email address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div>
+            <label for="exampleTextarea" class="form-label mt-4">Message:</label>
+            <textarea class="form-control" id="exampleTextarea" placeholder="Meow!" rows="3"></textarea>
+          </div>
+          <div>
+            <label for="exampleSelect1" class="form-label mt-4">How did you know about my page?</label>
+            <select class="form-select" id="exampleSelect1">
+              <option>Google</option>
+              <option selected>From a friend</option>
+              <option>Linkedin</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+
+    <!--
+    <nav> Navigation
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li>Contact (you are here)</li>
+        </ul>
+    </nav>
+    //-->
+</body>
+</html>
